@@ -1,0 +1,36 @@
+{
+  "name": "kitchen-web-project",
+  "version": "1.0.0",
+  "description": "an app dedicated to helping form a recipe for its users.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test.only": "jest tests/index.test.js",
+    "start": "node server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SETAP2021/cw-code-t7.git"
+  },
+  "author": "UP2016988@myport.ac.uk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SETAP2021/cw-code-t7/issues"
+  },
+  "homepage": "https://github.com/SETAP2021/cw-code-t7#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "spoonacular_api": "^1.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.10.0",
+    "eslint-config-portsoc": "^1.0.0",
+    "jsdoc": "^3.6.10"
+  },
+  "directories": {
+    "test": "tests"
+  }
+}
